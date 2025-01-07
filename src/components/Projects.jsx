@@ -19,7 +19,7 @@ const Projects = () => {
       title: "Smooth Rides",
       description: "Smooth Rides Car Rental Website allows users to browse and book rental cars with detailed information, featuring dark mode and a responsive design.",
       image: smooth,
-      link: "https://smooth-rides-5sls-1jp5tap88-tonykanyis-projects.vercel.app/",
+      link: "https://smooth-rides-a3vj-git-main-tonykanyis-projects.vercel.app/",
     },
     {
       title: "Budget Planner",
