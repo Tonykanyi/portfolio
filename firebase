@@ -1,0 +1,17 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBm-62YhLdQGQX26s-eqMEShT6Enm8n6LU",
+  authDomain: "boom-rental-harmony-a62d7.firebaseapp.com",
+  projectId: "boom-rental-harmony-a62d7",
+  storageBucket: "boom-rental-harmony-a62d7.appspot.com",
+  messagingSenderId: "614548562889",
+  appId: "1:614548562889:web:fec35b084120834d957e18"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
