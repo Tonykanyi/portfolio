@@ -3,6 +3,7 @@ import smooth from './static/images/smoothrides.png'; // Importing the image
 import duka from './static/images/duka.png'; // Importing the image
 import budget from './static/images/budget.png';
 import mellow from './static/images/mellow.png';
+import marketshade from './static/images/marketshade.jpeg';
 
 const Projects = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -23,7 +24,7 @@ const Projects = () => {
     },
     {
       title: "Budget Planner",
-      description: "A portfolio site built with React.js.",
+      description: "A payroll calculator and budget planner app built with React, Tailwind CSS,  allowing users to track and manage their payroll expenses.",
       image: budget,
       link: "https://budget-planner-chi-peach.vercel.app/",
     },
@@ -32,6 +33,12 @@ const Projects = () => {
       description: "Mellow Finance is a decentralized platform that allows users to borrow stablecoins by depositing cryptocurrency as collateral, ensuring secure and efficient loan transactions.",
       image: mellow,
       link: "https://basedmellowfi.vercel.app/",
+    },
+    {
+      title: "Marketshade",
+      description:"Marketshade Shop: Global e-commerce platform with diverse categories, user-friendly interface, secure transactions, and sustainable products, built for scalability.",
+      image: marketshade,
+      link: "https://www.marketshade.co.ke",
     },
   ];
 

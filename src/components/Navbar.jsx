@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../index.css";
 import image from './static/images/image.png'; // Importing the image
-import cv from './Anthony Kanyi Macharia cv .pdf'
+import cv from './Anthony Kanyi Macharia cv.pdf'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
