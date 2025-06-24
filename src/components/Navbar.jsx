@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav className="fixed w-full z-10 top-0 bg-transparent text-white backdrop-blur-lg">
       <div className="container mx-auto flex justify-between items-center p-6">
         {/* Logo */}
-        <h1 className="text-3xl font-bold text-gray-100 hover:text-blue-500 transition duration-200">
+        <h1 className="text-3xl font-bold text-gray-100 hover:text-green-500 transition duration-200">
           My Portfolio
         </h1>
 
@@ -28,11 +28,11 @@ const Navbar = () => {
         <ul
           className={`flex space-x-8 md:flex ${isOpen ? "block" : "hidden"} md:space-x-8 md:items-center md:flex-row`}
         >
-          <li><a href="#home" className="text-gray-300 hover:text-blue-400 transition duration-200">Home</a></li>
-          <li><a href="#about" className="text-gray-300 hover:text-blue-400 transition duration-200">About</a></li>
-          <li><a href="#skills" className="text-gray-300 hover:text-blue-400 transition duration-200">Skills</a></li>
-          <li><a href="#projects" className="text-gray-300 hover:text-blue-400 transition duration-200">Projects</a></li>
-          <li><a href="#contact" className="text-gray-300 hover:text-blue-400 transition duration-200">Contact</a></li>
+          <li><a href="#home" className="text-gray-300 hover:text-green-400 transition duration-200">Home</a></li>
+          <li><a href="#about" className="text-gray-300 hover:text-green-400 transition duration-200">About</a></li>
+          <li><a href="#skills" className="text-gray-300 hover:text-green-400 transition duration-200">Skills</a></li>
+          <li><a href="#projects" className="text-gray-300 hover:text-green-400 transition duration-200">Projects</a></li>
+          <li><a href="#contact" className="text-gray-300 hover:text-green-400 transition duration-200">Contact</a></li>
 
           {/* Profile Photo and Dropdown */}
           <li className="relative">
@@ -43,7 +43,7 @@ const Navbar = () => {
               <img
                 src={image}
                 alt="Profile"
-                className="w-12 h-12 rounded-full border-4 border-blue-600 shadow-lg hover:shadow-2xl transition duration-200"
+                className="w-12 h-12 rounded-full border-4 border-green-600 shadow-lg hover:shadow-2xl transition duration-200"
               />
             </button>
             {isProfileOpen && (
