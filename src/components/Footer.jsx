@@ -51,7 +51,7 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className="flex justify-center space-x-6 mb-6">
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/tonykanyi"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-teal-400 transition duration-300 text-2xl"
@@ -59,7 +59,7 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/kanyi-anthony-2a761a274/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-teal-400 transition duration-300 text-2xl"
@@ -67,7 +67,7 @@ const Footer = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://x.com/your-profile"
+            href="https://x.com/tony_kanyi"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-teal-400 transition duration-300 text-2xl"
@@ -75,7 +75,7 @@ const Footer = () => {
             <FaTwitter />
           </a>
           <a
-            href="mailto:your-email@example.com"
+            href="mailto:kanyianthony79@gmail.com"
             className="text-gray-300 hover:text-teal-400 transition duration-300 text-2xl"
           >
             <FaEnvelope />

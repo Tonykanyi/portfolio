@@ -59,8 +59,7 @@ const Contact = () => {
           Let's Connect
         </h2>
         <p className="text-lg sm:text-xl lg:text-2xl text-center mb-16 max-w-3xl mx-auto leading-relaxed font-light text-gray-300 animate-fade-in-up delay-100">
-          Got a project or just want to chat? Drop me a message, and I'll respond faster than you can say "code complete"!
-        </p>
+        Got a project or just want to chat? Hit me up, and I'll respond quicker than a 404 error on a missing API endpoint!        </p>
 
         <form onSubmit={handleSubmit} className="max-w-lg mx-auto bg-gray-900/30 backdrop-blur-lg p-8 sm:p-10 rounded-2xl shadow-2xl border border-gray-700/50 transform transition-all hover:scale-[1.02] duration-300">
           {/* Status Message */}
